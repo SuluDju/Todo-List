@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль элементов списка */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+    /* сделайте элементы списка невыбираемыми */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Более темный фон-цвет при наведении */
+ul li:hover {
+    background: #ddd;
+}
+
+
+
+.nameApp {
+    color: red;
+    text-align: center;
+}
+
+.empty-list {
+    text-align: center;
+}
+
+
+
+.task-title--done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+.btn-action:hover {
+    background-color: #e0e5ea;
+    opacity: 1;
+}
+
+
+.btn-action img {
+    pointer-events: none;
+}
+
+.none {
+    display: none !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
